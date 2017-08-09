@@ -1,5 +1,5 @@
 # Sample App iTune Top Album List
-Sample App itune app structure using Dagger 2 . Use this to display top albums on iTunes over list. We have provided offline access to list if network is not available user can see previous saved list. Internet Connection Broadcast is implemented when ever internet got disconnected it will display message and disable refresh button.
+Sample App itune app structure using Dagger 2 . Use this to display top albums on iTunes over list. We have provided offline access to list if network is not available user can see previous saved list. Internet Connection Broadcast is implemented when ever internet got disconnected it will display message and disable refresh button. For offline support Realm ORM used in this project 
 
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
@@ -26,6 +26,8 @@ It shows usage of following libraries:
 * [Butterknife] (http://jakewharton.github.io/butterknife/) for view binding.
 
 * [Timber] (https://github.com/JakeWharton/timber) for logging.
+
+* [REALM] (https://realm.io/docs/java/latest/) for logging.
 
 It uses MVP (Model View Presenter) pattern. MVP is a derivative from the well known MVC (Model View Controller), which for a while now is gaining importance in the development of Android applications.This project also contains basic utility classes required for day to day programming.
 
