@@ -1,4 +1,4 @@
-# SampleAppitune
+# Sample App iTune Top Album List
 Sample App itune app structure using Dagger 2 . Use this to display top albums on iTunes over list. We have provided offline access to list if network is not available user can see previous saved list. Internet Connection Broadcast is implemented when ever internet got disconnected it will display message and disable refresh button.
 
 
